@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+}
+
+#head_img {
+    background-image: url("{{page.image}}");
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
+    position:relative;
+}
+#head_img #title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 72px;
+    line-height:1.2;
+
+    -webkit-filter: drop-shadow(2px 2px #333);
+            filter: drop-shadow(2px 2px #333);
+}
+
+#content {
+    width: 650px;
+    margin: 80px auto;
+    line-height: 1.6;
+    font-size: 18px;
+    color:#444;
+}
+
+#content img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,h2,h3{line-height:1.2}
+
+#tag {
+    position: fixed;
+    left: 5%;
+    top: 2%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#tag a {
+    text-decoration: none;
+    color: white;
+}
