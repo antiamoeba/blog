@@ -1,0 +1,22 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    {% if page.image %}
+    <div id="head_img" style="background-image: url('{{page.image}}')">
+    {% else %}
+    <div id="head_img" style="background-image: url('/assets/img/delicatearch.jpg')">
+    {% endif %}
+        <div id="title">{{page.title}}</div>
+    </div>
+
+    <div id="content">
+        {{content}}
+    </div>
+
+    <div id="tag"><a href="/">antiamoebic</a></div>
+</body>
+</html>

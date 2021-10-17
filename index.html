@@ -1,0 +1,31 @@
+---
+layout: default
+title: antiamoebic
+---
+
+<h1> Latest Posts: </h1>
+
+<div>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<h1> Or, check out my Medium: </h1>
+<div>
+  <ul>
+      <li>
+        <h2><a href="https://medium.com/@dorianchan/my-own-bao-and-the-new-incredibles-movie-spoilers-aaefc8a5389e">My Own “Bao” and the new Incredibles Movie (spoilers!)</a></h2>
+      </li>
+      <li>
+        <h2><a href="https://medium.com/@dorianchan/fishing-dreams-of-electric-fish-dba83f1f0c9e">Fishing Dreams of Electric Fish</a></h2>
+      </li>
+      <li>
+        <h2><a href="https://medium.com/@dorianchan/its-been-a-long-time-san-jose-15ebcbe55e36">It's been a long time, San Jose</a></h2>
+      </li>
+  </ul>
+</div>
